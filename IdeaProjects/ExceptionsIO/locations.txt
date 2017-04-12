@@ -1,0 +1,6 @@
+IN front of computer,0
+Road,1
+Hill,2
+Building,3
+Valley,4
+Forest,5

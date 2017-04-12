@@ -1,0 +1,32 @@
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.*?>
+<BorderPane fx:controller="com.Sanjan.practice.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+    <left>
+        <ListView fx:id="myListView" >
+
+        </ListView>
+    </left>
+    <center>
+
+        <VBox style="-fx-background-color:white" >
+            <TextArea fx:id="myTextArea" VBox.vgrow="ALWAYS" ></TextArea>
+            <HBox style="-fx-border-color:red; -fx-border-width:3">
+                <Label text="Due: ">
+                    <font>
+                        <Font></Font>
+                    </font>
+                </Label>
+                <Label   fx:id="getDate"></Label>
+
+            </HBox>
+        </VBox>
+    </center>
+
+
+</BorderPane>

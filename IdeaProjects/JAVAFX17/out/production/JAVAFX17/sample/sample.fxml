@@ -1,0 +1,24 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.web.WebView?>
+<GridPane fx:id="gridPane" fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10" stylesheets="@styles.css">
+    <Button onAction="#handleClick" text="Open ..." GridPane.columnIndex="0" GridPane.rowIndex="0"></Button>
+    <Button text="Button two" GridPane.columnIndex="1" GridPane.rowIndex="0"></Button>
+    <Button text="Button three" GridPane.columnIndex="2" GridPane.rowIndex="0"></Button>
+    <Button text="Button four" GridPane.columnIndex="3" GridPane.rowIndex="0" fx:id="button4"></Button>
+    <Button text="Button five" GridPane.columnIndex="4" GridPane.rowIndex="0"></Button>
+
+    <RadioButton text="choice1" GridPane.rowIndex="1" GridPane.columnIndex="0"></RadioButton>
+    <Label fx:id="myLabel" text="JAVAFX EFFECTS" GridPane.columnIndex="1" GridPane.rowIndex="1" onMouseEntered="#handleEntry" onMouseExited="#handleExit"
+    rotate="90"></Label>
+
+    <Hyperlink text="www.javafx.com" onMouseClicked="#handleLinkClick" GridPane.columnIndex="0" GridPane.rowIndex="3"></Hyperlink>
+    <WebView fx:id="webView" GridPane.rowIndex="4" GridPane.columnIndex="0" GridPane.columnSpan="5" GridPane.rowSpan="3"></WebView>
+
+</GridPane>

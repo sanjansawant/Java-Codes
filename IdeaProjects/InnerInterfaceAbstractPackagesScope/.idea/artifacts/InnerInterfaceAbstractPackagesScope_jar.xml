@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="InnerInterfaceAbstractPackagesScope:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/InnerInterfaceAbstractPackagesScope_jar</output-path>
+    <root id="archive" name="InnerInterfaceAbstractPackagesScope.jar">
+      <element id="module-output" name="InnerInterfaceAbstractPackagesScope" />
+    </root>
+  </artifact>
+</component>

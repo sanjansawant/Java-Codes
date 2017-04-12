@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GenericsRevise:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GenericsRevise_jar</output-path>
+    <root id="archive" name="GenericsRevise.jar">
+      <element id="module-output" name="GenericsRevise" />
+    </root>
+  </artifact>
+</component>

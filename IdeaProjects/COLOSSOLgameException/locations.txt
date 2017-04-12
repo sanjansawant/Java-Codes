@@ -1,0 +1,6 @@
+0,In front of computer
+1,ROAD
+2,HILL
+3,BUILDING
+4,VALLEY
+5,FOREST

@@ -1,0 +1,12 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.*?>
+
+<GridPane fx:controller="sample.Controller"
+            xmlns:fx="http://javafx.com/fxml" vgap="10" hgap="10" alignment="center">
+
+    <TextField fx:id="ourTextField" GridPane.rowIndex="0" GridPane.columnIndex="0" onKeyReleased="#handleKey"> </TextField>
+    <Button fx:id="sayHello" text="sayHello" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#keyPressed"></Button>
+    <Button fx:id="sayBye" text="sayBye" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#keyPressed"></Button>
+    <Label fx:id="ThisIsLabel" GridPane.columnIndex="0" GridPane.rowIndex="2" text="Label is This"></Label>
+    <CheckBox fx:id="clearEverything" text="please clear everything" GridPane.columnIndex="0" GridPane.rowIndex="3"></CheckBox>
+</GridPane>

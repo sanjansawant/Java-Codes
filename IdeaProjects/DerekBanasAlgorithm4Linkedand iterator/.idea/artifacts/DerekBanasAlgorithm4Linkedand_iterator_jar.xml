@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DerekBanasAlgorithm4Linkedand iterator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DerekBanasAlgorithm4Linkedand_iterator_jar</output-path>
+    <root id="archive" name="DerekBanasAlgorithm4Linkedand iterator.jar">
+      <element id="module-output" name="DerekBanasAlgorithm4Linkedand iterator" />
+    </root>
+  </artifact>
+</component>
